@@ -7569,6 +7569,12 @@
 <programme start="20240314100500 +0800" stop="20240314101800 +0800" channel="hmdh">
 <title lang="zh">03_百变校巴8</title><desc lang="zh"></desc>
 </programme>
+<programme start="20240314101800 +0800" stop="20240314103200 +0800" channel="hmdh">
+<title lang="zh">04_百变校巴8</title><desc lang="zh"></desc>
+</programme>
+<programme start="20240314103200 +0800" stop="20240314105500 +0800" channel="hmdh">
+<title lang="zh">汪汪队立大功第3季03</title><desc lang="zh"></desc>
+</programme>
 <programme start="20240314000000 +0800" stop="20240314020000 +0800" channel="dbdj">
 <title lang="zh">精彩节目</title><desc lang="zh"></desc>
 </programme>
@@ -8030,6 +8036,9 @@
 </programme>
 <programme start="20240314095100 +0800" stop="20240314102100 +0800" channel="xc4k">
 <title lang="zh">飞向月球4K 第五集 自新大陆</title><desc lang="zh"></desc>
+</programme>
+<programme start="20240314102100 +0800" stop="20240314105100 +0800" channel="xc4k">
+<title lang="zh">味道4K 原味乡间b7定南篇（上）</title><desc lang="zh"></desc>
 </programme>
 <programme start="20240314070100 +0800" stop="20240314075400 +0800" channel="CCTVfyjc">
 <title lang="zh">大好时光-(高清文件)-37</title><desc lang="zh"></desc>
@@ -16842,6 +16851,9 @@
 <programme start="20240314093900 +0800" stop="20240314103100 +0800" channel="N01">
 <title lang="zh">血与火：第一次世界大战启示录 ② 最惨烈的战场</title><desc lang="zh"></desc>
 </programme>
+<programme start="20240314103100 +0800" stop="20240314112300 +0800" channel="N01">
+<title lang="zh">胜战：保家卫国 ② 清川江围歼战</title><desc lang="zh"></desc>
+</programme>
 <programme start="20240314001100 +0800" stop="20240314005700 +0800" channel="N02">
 <title lang="zh">33_小站风云</title><desc lang="zh"></desc>
 </programme>
@@ -16883,6 +16895,9 @@
 </programme>
 <programme start="20240314100100 +0800" stop="20240314104600 +0800" channel="N02">
 <title lang="zh">04_危机迷雾</title><desc lang="zh"></desc>
+</programme>
+<programme start="20240314104600 +0800" stop="20240314113100 +0800" channel="N02">
+<title lang="zh">05_危机迷雾</title><desc lang="zh"></desc>
 </programme>
 <programme start="20240314001600 +0800" stop="20240314005600 +0800" channel="N05">
 <title lang="zh">15_只想今生一起走</title><desc lang="zh"></desc>
@@ -16926,6 +16941,9 @@
 <programme start="20240314093500 +0800" stop="20240314102400 +0800" channel="N05">
 <title lang="zh">生活服务</title><desc lang="zh"></desc>
 </programme>
+<programme start="20240314102400 +0800" stop="20240314110900 +0800" channel="N05">
+<title lang="zh">44_大嫁风尚</title><desc lang="zh"></desc>
+</programme>
 <programme start="20240314004300 +0800" stop="20240314020200 +0800" channel="N07">
 <title lang="zh">蜀山2剑魔篇</title><desc lang="zh"></desc>
 </programme>
@@ -16955,6 +16973,9 @@
 </programme>
 <programme start="20240314094300 +0800" stop="20240314102900 +0800" channel="N07">
 <title lang="zh">40_大秦帝国之裂变</title><desc lang="zh"></desc>
+</programme>
+<programme start="20240314102900 +0800" stop="20240314111500 +0800" channel="N07">
+<title lang="zh">41_大秦帝国之裂变</title><desc lang="zh"></desc>
 </programme>
 <programme start="20240314011300 +0800" stop="20240314025800 +0800" channel="N09">
 <title lang="zh">夺命手机</title><desc lang="zh"></desc>
@@ -17001,6 +17022,9 @@
 <programme start="20240314095300 +0800" stop="20240314104300 +0800" channel="N09">
 <title lang="zh">20_乐游原</title><desc lang="zh"></desc>
 </programme>
+<programme start="20240314104300 +0800" stop="20240314112900 +0800" channel="N09">
+<title lang="zh">21_乐游原</title><desc lang="zh"></desc>
+</programme>
 <programme start="20240314001800 +0800" stop="20240314013800 +0800" channel="N10">
 <title lang="zh">山海经之伏魔正道</title><desc lang="zh"></desc>
 </programme>
@@ -17024,6 +17048,9 @@
 </programme>
 <programme start="20240314092400 +0800" stop="20240314104000 +0800" channel="N10">
 <title lang="zh">狄仁杰之冥神契约</title><desc lang="zh"></desc>
+</programme>
+<programme start="20240314104000 +0800" stop="20240314120600 +0800" channel="N10">
+<title lang="zh">生死游戏</title><desc lang="zh"></desc>
 </programme>
 <programme start="20240314002100 +0800" stop="20240314020700 +0800" channel="N12">
 <title lang="zh">勇往直前</title><desc lang="zh"></desc>
@@ -17063,6 +17090,9 @@
 </programme>
 <programme start="20240314095100 +0800" stop="20240314103600 +0800" channel="N12">
 <title lang="zh">生活服务</title><desc lang="zh"></desc>
+</programme>
+<programme start="20240314103600 +0800" stop="20240314112200 +0800" channel="N12">
+<title lang="zh">23_嫣语赋</title><desc lang="zh"></desc>
 </programme>
 <programme start="20240314000000 +0800" stop="20240314020000 +0800" channel="N13">
 <title lang="zh">精彩节目</title><desc lang="zh"></desc>
@@ -17139,6 +17169,9 @@
 <programme start="20240314094500 +0800" stop="20240314103000 +0800" channel="N15">
 <title lang="zh">19_大嫁风尚</title><desc lang="zh"></desc>
 </programme>
+<programme start="20240314103000 +0800" stop="20240314111500 +0800" channel="N15">
+<title lang="zh">20_大嫁风尚</title><desc lang="zh"></desc>
+</programme>
 <programme start="20240314001400 +0800" stop="20240314014400 +0800" channel="N16">
 <title lang="zh">01_那英肖战身穿绝美民国服饰合唱主题曲 9岁患儿天籁之声打动全场</title><desc lang="zh"></desc>
 </programme>
@@ -17193,6 +17226,9 @@
 <programme start="20240314095400 +0800" stop="20240314104000 +0800" channel="N16">
 <title lang="zh">带您回归亲情中的温暖（20210224）</title><desc lang="zh"></desc>
 </programme>
+<programme start="20240314104000 +0800" stop="20240314112800 +0800" channel="N16">
+<title lang="zh">生活服务</title><desc lang="zh"></desc>
+</programme>
 <programme start="20240314000200 +0800" stop="20240314014000 +0800" channel="N18">
 <title lang="zh">2023-24赛季欧冠1/8决赛首回合：莱比锡VS皇马</title><desc lang="zh"></desc>
 </programme>
@@ -17210,6 +17246,9 @@
 </programme>
 <programme start="20240314082400 +0800" stop="20240314101800 +0800" channel="N18">
 <title lang="zh">23-24赛季CBA常规赛：北控VS广州</title><desc lang="zh"></desc>
+</programme>
+<programme start="20240314101800 +0800" stop="20240314111200 +0800" channel="N18">
+<title lang="zh">世界巡回赛总决赛混双决赛：中国VS中国</title><desc lang="zh"></desc>
 </programme>
 <programme start="20240314003400 +0800" stop="20240314012200 +0800" channel="N19">
 <title lang="zh">25_燕云台</title><desc lang="zh"></desc>
@@ -17249,6 +17288,9 @@
 </programme>
 <programme start="20240314101200 +0800" stop="20240314105900 +0800" channel="N19">
 <title lang="zh">38_那年花开月正圆</title><desc lang="zh"></desc>
+</programme>
+<programme start="20240314105900 +0800" stop="20240314114400 +0800" channel="N19">
+<title lang="zh">39_那年花开月正圆</title><desc lang="zh"></desc>
 </programme>
 <programme start="20240314001300 +0800" stop="20240314002300 +0800" channel="N23">
 <title lang="zh">今日影评</title><desc lang="zh"></desc>
@@ -17351,6 +17393,9 @@
 </programme>
 <programme start="20240314095900 +0800" stop="20240314104000 +0800" channel="N25">
 <title lang="zh">28_妈妈在等你</title><desc lang="zh"></desc>
+</programme>
+<programme start="20240314104500 +0800" stop="20240314113300 +0800" channel="N25">
+<title lang="zh">38_有翡</title><desc lang="zh"></desc>
 </programme>
 <programme start="20240314000000 +0800" stop="20240314020000 +0800" channel="migu">
 <title lang="zh">精彩节目</title><desc lang="zh"></desc>
