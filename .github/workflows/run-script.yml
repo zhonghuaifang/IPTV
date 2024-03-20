@@ -3,7 +3,7 @@ name: Run Auto-TVxml Script
 # on: [push]
 on: 
   schedule:
-    - cron:  '16 0 * * *'
+    - cron:  '16 0 */3 * *'
   workflow_dispatch:
 
 jobs:
