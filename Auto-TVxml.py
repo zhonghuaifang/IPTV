@@ -14,7 +14,8 @@ import requests
 
 # 原始数据来源地址
 
-m3u_url='https://raw.githubusercontent.com/Troray/IPTV/main/IPTV.m3u'
+# m3u_url='https://raw.githubusercontent.com/Troray/IPTV/main/IPTV.m3u'
+m3u_url='https://live.fanmingming.com/tv/m3u/ipv6.m3u'
 epg1_api='https://epg.112114.xyz/?ch='
 epg2_api='https://diyp.112114.xyz/?ch='
 header={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0'}
@@ -79,6 +80,9 @@ def epg_api_data(tvg_id,tvg_name):
     return xml_string
 
 m3u_data = fetch_m3u_data(m3u_url)
+
+with open("IPTV_fmm.m3u", "w", encoding="utf-8") as xml_file:
+    xml_file.write(m3u_data)
 
 tvg_info,tvg_info_dict = extract_tvg_info_from_m3u(m3u_data)
 
