@@ -13365,11 +13365,17 @@
 <programme start="20240327001500 +0800" stop="20240327011300 +0800" channel="newtv超级体育">
 <title lang="zh">顶级赛事-围棋</title><desc lang="zh"></desc>
 </programme>
+<programme start="20240327011300 +0800" stop="20240327023800 +0800" channel="newtv超级体育">
+<title lang="zh">实况录像-2024年世界室内田径锦标赛 2</title><desc lang="zh"></desc>
+</programme>
 <programme start="20240327000900 +0800" stop="20240327014700 +0800" channel="newtv超级电影">
 <title lang="zh">青面兽杨志</title><desc lang="zh"></desc>
 </programme>
 <programme start="20240327004200 +0800" stop="20240327012700 +0800" channel="newtv超级电视剧">
 <title lang="zh">18_新万家灯火</title><desc lang="zh"></desc>
+</programme>
+<programme start="20240327012700 +0800" stop="20240327021200 +0800" channel="newtv超级电视剧">
+<title lang="zh">19_新万家灯火</title><desc lang="zh"></desc>
 </programme>
 <programme start="20240327000000 +0800" stop="20240327020000 +0800" channel="newtv海外剧场">
 <title lang="zh">精彩节目</title><desc lang="zh"></desc>
