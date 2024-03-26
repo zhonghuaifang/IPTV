@@ -103,7 +103,7 @@ for key in tvg_info_dict:
     # time.sleep(0.1)
     print(tvg_info_dict[key],'已完成')
     if xml_string != False:
-    tvxml_list.append(xml_string)
+        tvxml_list.append(xml_string)
 
 tvxml_list.append('</tv>')
 tvxml_string = "".join(tvxml_list)
