@@ -84,8 +84,8 @@ def epg_api_data(tvg_id,tvg_name):
 
 m3u_data = fetch_m3u_data(m3u_url)
 
-with open("IPTV_fmm.m3u", "w", encoding="utf-8") as xml_file:
-    xml_file.write(m3u_data)
+with open("IPTV_fmm.m3u", "w", encoding="utf-8") as m3u_file:
+    m3u_file.write(m3u_data)
 
 tvg_info,tvg_info_dict = extract_tvg_info_from_m3u(m3u_data)
 
