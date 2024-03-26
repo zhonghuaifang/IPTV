@@ -31,7 +31,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add tvxml.xml
+        git add .
         git status  # 添加调试信息
         git commit -m "Update tvxml.xml"
         git status  # 添加调试信息
