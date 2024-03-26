@@ -52,33 +52,35 @@ def extract_tvg_info_from_m3u(m3u_data):
 
 # 定义频道TVXML数据API数据获取函数
 def epg_api_data(tvg_id,tvg_name):
-    if tvg_name not in '老故事':
+    if tvg_name in ['老故事']:
+        return False;
+    else:
         epg_date=requests.get(epg1_api+tvg_name,headers=header)
         if '精彩节目-暂未提供节目预告信息' in epg_date.text or tvg_name in '卡酷少儿 纪实科教':
             print(tvg_name,'的EPG节目信息在API1中不存在或不准确 已更换为API2')
             epg_date=requests.get(epg2_api+tvg_name,headers=header)
-    json_data = epg_date.json()
+        json_data = epg_date.json()
 
-    # 创建空字符串用于存放 epg 内容
-    xml_list = []
- 
-    # 遍历该频道当天所有节目信息
-    for epg in json_data["epg_data"]:
-        if epg['start'] == '00:00' and epg['end'] == '23:59':   # 剔除错误数据，此处为00:00开始，23:59结束的节目-明显错误内容
-            print(tvg_name,'包含重复错误节目信息，已剔除') # 输出包含错误信息的频道名
-            continue           
-        
-        start_time = f"{json_data['date'].replace('-', '')}{epg['start'].replace(':', '')}00 +0800"
-        end_time = f"{json_data['date'].replace('-', '')}{epg['end'].replace(':', '')}00 +0800"
-        title = epg["title"].replace("<", "《").replace(">", "》").replace("&", "&amp;") #替换xml文件中的一些禁用字符
-
-        xml_list.append('<programme start=\"'+start_time+'\" stop=\"'+end_time+'\" channel=\"'+tvg_id+'\">\n')
-        xml_list.append('<title lang="zh">'+title+'</title><desc lang="zh"></desc>\n')
-        xml_list.append('</programme>\n')
-
-    xml_string = "".join(xml_list)
-  
-    return xml_string
+        # 创建空字符串用于存放 epg 内容
+        xml_list = []
+     
+        # 遍历该频道当天所有节目信息
+        for epg in json_data["epg_data"]:
+            if epg['start'] == '00:00' and epg['end'] == '23:59':   # 剔除错误数据，此处为00:00开始，23:59结束的节目-明显错误内容
+                print(tvg_name,'包含重复错误节目信息，已剔除') # 输出包含错误信息的频道名
+                continue           
+            
+            start_time = f"{json_data['date'].replace('-', '')}{epg['start'].replace(':', '')}00 +0800"
+            end_time = f"{json_data['date'].replace('-', '')}{epg['end'].replace(':', '')}00 +0800"
+            title = epg["title"].replace("<", "《").replace(">", "》").replace("&", "&amp;") #替换xml文件中的一些禁用字符
+    
+            xml_list.append('<programme start=\"'+start_time+'\" stop=\"'+end_time+'\" channel=\"'+tvg_id+'\">\n')
+            xml_list.append('<title lang="zh">'+title+'</title><desc lang="zh"></desc>\n')
+            xml_list.append('</programme>\n')
+    
+        xml_string = "".join(xml_list)
+      
+        return xml_string
 
 m3u_data = fetch_m3u_data(m3u_url)
 
@@ -100,6 +102,7 @@ for key in tvg_info_dict:
     xml_string = epg_api_data(key,tvg_info_dict[key])
     # time.sleep(0.1)
     print(tvg_info_dict[key],'已完成')
+    if xml_string != False:
     tvxml_list.append(xml_string)
 
 tvxml_list.append('</tv>')
